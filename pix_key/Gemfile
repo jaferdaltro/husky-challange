@@ -8,11 +8,8 @@ gem "rake", "~> 13.0"
 
 gem "rspec", "~> 3.0"
 
-# gem 'u-case', '~> 4.5', '>= 4.5.1'
-
-gem "activemodel"
-gem 'u-case', require: 'u-case/with_activemodel_validation'
-
 gem 'pry'
 
 gem 'awesome_print'
+
+gem 'uri', '~> 0.11.0'
